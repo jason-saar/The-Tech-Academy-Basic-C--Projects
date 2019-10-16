@@ -6,22 +6,7 @@ namespace VariablesAndDataTypes
     {
         static void Main(string[] args)
         {
-            // This is a simple program
-            //Console.WriteLine("What is your name?");
-            //string yourName = Console.ReadLine();
-            //Console.WriteLine("Your name is: " + yourName);
-            //Console.ReadLine();
-
-            //Console.WriteLine("What is your favorite number?");
-            //string favoriteNumber = Console.ReadLine();
-            //int favNum = Convert.ToInt32(favoriteNumber);
-            //int total = favNum + 5;
-            //Console.WriteLine("Your favoreite number is " + favoriteNumber + ".");
-            //Console.WriteLine("Your favorite number + 5 is: " + total + ".");
-            //Console.ReadLine();
-
-            //bool isStudying = true;
-
+         
             Console.WriteLine("The Tech Academy");
             Console.WriteLine("Student Daily Report");
             Console.WriteLine("---------------------");
@@ -39,7 +24,6 @@ namespace VariablesAndDataTypes
             int studyHours = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Thank you for your answers. An instructor will respond to this shortly. Have a great day!");
             Console.Read();
-
 
         }
     }
