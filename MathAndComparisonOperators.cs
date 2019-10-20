@@ -33,7 +33,7 @@ namespace MathAndComparisonOperators
             Console.WriteLine("Enter a number:");
             int inputFour = Convert.ToInt32(Console.ReadLine());
             bool answerFour = inputFour > 50;
-            Console.WriteLine(inputFour + " > 50 = " + answerFour);
+            Console.WriteLine(inputFour + " > 50 = " + answerFour.ToString());
             Console.WriteLine("Press enter to continue...");
             Console.ReadLine();
 
