@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{85BBFB62-9FC3-412D-93A9-B423C01C5704}</ProjectGuid>
+    <ProjectGuid>{F6938A64-CF5C-4224-8CBA-061EC717E42C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Branching</RootNamespace>
-    <AssemblyName>Branching</AssemblyName>
+    <RootNamespace>LoginMenu</RootNamespace>
+    <AssemblyName>LoginMenu</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

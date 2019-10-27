@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{85BBFB62-9FC3-412D-93A9-B423C01C5704}</ProjectGuid>
+    <ProjectGuid>{A79D4A33-FD37-4FFB-80E9-3B11E5150361}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Branching</RootNamespace>
-    <AssemblyName>Branching</AssemblyName>
+    <RootNamespace>Loops</RootNamespace>
+    <AssemblyName>Loops</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
