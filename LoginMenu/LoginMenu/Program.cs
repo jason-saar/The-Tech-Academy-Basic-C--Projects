@@ -10,35 +10,35 @@ namespace LoginMenu
     {
         static void Main(string[] args)
         {
-            string admin = "root";
-            string adminPass = "toor";
-            bool isAuthorized = false;
-            bool isUser = false;
-            int tries = 0;
-            do
+            string admin = "root";          //Admin Username
+            string adminPass = "toor";      //Admin Password
+            bool isAuthorized = false;      //Password Comparison bool
+            bool isUser = false;            //Username Comparison bool
+            int tries = 0;                  //Login Attempts
+            do //Password loop, 5 attempts, requires username loop to be broken first.
             {
-                while (!isUser)
+                while (!isUser) //Username Login Loop requires "root" to end loop
                 {
                     Console.WriteLine("Enter Username: ");
                     string user = Console.ReadLine();
-                    if (user == admin)
+                    if (user == admin) //Correct uusername
                     {
                         isUser = true;
                     }
-                    else
+                    else //Unlimited username attempts
                     {
                         Console.WriteLine("Incorrect Username. Try Again.");
                     }
                 }
                 Console.WriteLine("Enter Password:");
                 string password = Console.ReadLine();
-                if (password == adminPass)
+                if (password == adminPass) //password correct, set bool to true, break loop
                 {
                     isAuthorized = true;
                 }
-                else
+                else //incorrect password, increment tries, tries >= 5 exit program
                 {
-                    tries += 1;
+                    tries += 1; 
                     if (tries >= 5)
                     {
                         Console.WriteLine("Too many failed attempts. Exiting Program.");
