@@ -29,7 +29,7 @@ class Program
         {
             Console.ReadLine();
         }
-        Console.WriteLine("The program has emerged from a try/catch block");                   //Anounce emergence from block.
+        Console.WriteLine("The program has emerged from a try/catch block");                   //Announce emergence from block.
         Console.ReadLine();
 
     }
