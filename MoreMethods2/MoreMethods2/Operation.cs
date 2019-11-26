@@ -20,7 +20,8 @@ namespace MoreMethods2
 
         public int Operate(decimal d)
         {
-            d = Math.Round(d); 
+            d = Math.Round(d);
+            d = --d;
             return Convert.ToInt32(d);
         }
 
