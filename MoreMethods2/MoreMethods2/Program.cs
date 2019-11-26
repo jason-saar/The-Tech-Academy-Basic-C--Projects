@@ -12,7 +12,7 @@ namespace MoreMethods2
         {
             Operation operation = new Operation();
             Console.WriteLine(operation.Operate(10));
-            Console.WriteLine(operation.Operate(13.2));
+            Console.WriteLine(operation.Operate(.6M));
             Console.WriteLine(operation.Operate("5"));
             Console.ReadLine();
         }

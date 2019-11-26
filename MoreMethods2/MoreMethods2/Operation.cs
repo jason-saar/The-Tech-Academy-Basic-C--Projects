@@ -18,11 +18,10 @@ namespace MoreMethods2
             return x;
         }
 
-        public int Operate(double x)
+        public int Operate(decimal d)
         {
-            x = Math.Floor(x);
-            x = --x;
-            return Convert.ToInt32(x);
+            d = Math.Round(d); 
+            return Convert.ToInt32(d);
         }
 
         public int Operate(string s)
