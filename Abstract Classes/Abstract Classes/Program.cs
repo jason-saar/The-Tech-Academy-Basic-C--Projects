@@ -15,6 +15,9 @@ namespace Abstract_Classes
             person.LastName = "Student";
             person.SayName();
             Console.ReadLine();
+
+            IQuittable quittable = new Employee();
+            quittable.Quit();
         }
     }
 }

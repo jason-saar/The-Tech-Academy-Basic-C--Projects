@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 
 namespace Abstract_Classes
 {
-    public class Employee : Person
+    public class Employee : Person, IQuittable
 
     {
         public override void SayName()
         {
             Console.WriteLine("Employee name: ");
             base.SayName();
+        }
+
+        public void Quit()
+        {
+            Environment.Exit(0);
         }
     }
 }
