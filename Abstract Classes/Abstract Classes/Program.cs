@@ -10,10 +10,14 @@ namespace Abstract_Classes
     {
         static void Main(string[] args)
         {
-            Employee employee1 = new Employee();
-            employee1.Id = 1234;
-            Employee employee2 = new Employee();
-            employee2.Id = 12345;
+            Employee employee1 = new Employee
+            {
+                Id = 1234
+            };
+            Employee employee2 = new Employee
+            {
+                Id = 1234
+            };
             if (employee1 == employee2)
                 Console.WriteLine("Employee1 and Employee2 have the same Id.");
             else
