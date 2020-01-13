@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace LambdaFunctions
 {
-    public class Employee : Person
+    class Program
     {
-        public int Id { get; set; }
-
+        static void Main(string[] args)
+        {
+        }
     }
 }
