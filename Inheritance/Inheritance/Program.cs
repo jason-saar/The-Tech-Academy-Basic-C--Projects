@@ -85,7 +85,14 @@ namespace LambdaFunctions
                 }
             }
 
+            List<Employee> lambdaJoe = employees.Where(x => x.FirstName == "Joe").ToList();
+
             List<Employee> employees1 = employees.Where(x => x.Id > 5).ToList();
+
+            foreach (Employee employee in lambdaJoe)
+            {
+                Console.WriteLine(employee.FirstName + " " + employee.LastName + " Id: " + employee.Id);
+            }
 
             foreach (Employee employee in joes)
             {
